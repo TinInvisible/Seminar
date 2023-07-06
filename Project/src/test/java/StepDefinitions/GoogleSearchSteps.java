@@ -66,7 +66,7 @@ public class GoogleSearchSteps {
 		System.out.println("Inside Step - user is navigated to search results");
 		
 		driver.getPageSource().contains("Online Courses");
-		Thread.sleep(10000);
+		Thread.sleep(2000);
 		driver.close();
 		driver.quit();
 		
